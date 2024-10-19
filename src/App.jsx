@@ -6,14 +6,20 @@ function App() {
         margin: "2rem auto",
         padding: "2rem",
         backgroundColor: "white",
+        borderRadius: "10px",
       }}
     >
-      <div>
+      <div
+        style={{
+          textAlign: "center",
+          display: "flex",
+          flexDirection: "column",
+          gap: "0.5rem",
+          marginBottom: "10px",
+        }}
+      >
         <h3>Sing Up</h3>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis
-          culpa vitae voluptatem.
-        </p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
       </div>
       <form>
         <div>
